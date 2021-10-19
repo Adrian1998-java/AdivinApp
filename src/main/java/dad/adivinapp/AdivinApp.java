@@ -43,7 +43,7 @@ public class AdivinApp extends Application {
 
 		// Panel VBox
 		VBox root = new VBox();
-		root.setSpacing(15);
+		root.setSpacing(5);
 		root.setAlignment(Pos.CENTER);
 		root.getChildren().addAll(mensaje, numTextField, numButton);
 
